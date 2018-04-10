@@ -200,20 +200,3 @@ img:hover {
 #footer {
   font-size: 0.75rem;
 }
-
-/* code for making a custom scroll bar. taking it back to my old myspace days... :p */
-
-.scrollbar {
-    background-color: #F5F5F5;
-    float: left;
-    height: 300px;
-    margin-bottom: 25px;
-    margin-left: 22px;
-    margin-top: 40px;
-    width: 65px;
-       overflow-y: scroll;
-}
-
-.force-overflow {
-    min-height: 450px;
-}
