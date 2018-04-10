@@ -1,0 +1,202 @@
+/*created from scratch by Jakeh Clark, March 9th 2018
+
+For Prime Academy Application
+*/
+
+body {
+	height: 100%;
+	margin: 0;
+	text-align: justify;
+    width: 100%;
+    font-family: Avalon, sans-serif;
+                font-size: .75rem;
+                color: white;
+                background:         
+                    repeating-linear-gradient(
+                90deg,
+                #ffffff,
+                #ffffff 2px,
+                #f7f1f1 1px,
+                #e0dfdf 5px
+);
+}
+
+
+
+.page-title {
+    text-align: center;
+    font-weight: 100;
+  }
+
+.contact {
+    font-size: 1rem;
+    color: #aaaaaa;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px
+    #d7141a;
+    padding-right: 15px;
+    line-height: 25px;
+}
+  
+.page-description {
+    font-size: .85rem;
+    font-weight: bold;
+    text-align: justify;
+  }
+
+h1 {
+    text-align: center;
+    font-weight: bolder;
+	font-size: 1rem;
+    font-family: verdana;
+    color: #d7141a;
+}
+
+h2 {
+    text-align: center;
+    font-size: 3rem;
+    text-shadow: 3px 3px 5px #d7141a;
+    padding: 0px;
+    margin: 0px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 1rem;
+    text-shadow: 3px 3px 5px #000;
+    padding: 0px;
+    margin: 0px;
+}
+
+h4 {
+    font-size: 2rem;
+    text-align: left;
+    text-shadow: 3px 3px 5px #000;
+    padding-bottom: 30px;
+    margin: 0px;
+}
+
+h5 {
+    font-size: .85rem;
+    text-align: left;
+    border-bottom: 1px solid #fff;
+    padding: 0px;
+    margin: 0px;
+}
+
+h6 {
+    font-size: .9em;
+    text-align: left;
+    padding: 0px;
+    margin: 0px;
+}
+
+hr {
+    border-color: black;
+    width: 500px;
+}
+
+.intro {
+    background-image: url("images/bg.png");
+    color: #ffffff;
+    padding: auto;
+    border: auto;
+    margin: auto;
+    width: 75%;
+    max-width: 700px;
+  font-family: 'Trebuchet MS', Helvetica, sans-serif
+}
+
+.firstcharacter {
+    color: rgb(255, 255, 255);
+    float: left;
+    font-family: verdana;
+    font-size: 50px;
+    line-height: 30px;
+    padding-top: 4px;
+    padding-right: 8px;
+    padding-left: 3px;
+  }
+
+.introbody {
+    color: #aaaaaa;
+    padding: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: auto;
+    margin: auto;
+    max-width: 680px;}
+
+.experience {
+    color: #ffffff;
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 680px;
+}
+    
+.jobdescription {
+    color: #aaaaaa;
+}
+
+p {
+    padding: auto;
+}
+
+#footer {
+    text-align: center;
+    font-size: 0.75rem;
+  }
+
+.intro a {
+    color: #d7141a;
+    font-weight: bold;
+    text-decoration: none;
+    position: relative;
+}
+
+/*the following bit of CSS makes the link button have a subtle animation when clicked*/
+
+.intro a:active {
+    top: 2px;
+}
+
+/*the gallery is a scrolling div layer. It's width matches the width of the parent div. I couldn't figure out how to get padding around the gallery. I quite dislike the fact that it touches the edges of the frame.*/
+
+.gallery {
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  
+.gallery-item {
+    margin: 2px;
+    image-rendering: optimizeSpeed;
+  }
+  
+.selfie {
+    height: 200px;
+    padding-left: 15px;
+    float: right;
+    opacity: 1.0;
+}
+  /*images have filter over them, which makes them transparent except when they are hovered over*/
+
+img {
+    height: 250px;
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+img:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+  .gallery-item .thumbnail {
+  
+  }
+
+#footer {
+  font-size: 0.75rem;
+}
